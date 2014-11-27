@@ -9,17 +9,36 @@
 import UIKit
 
 class ViewController: UIViewController {
+  @IBOutlet weak var scrollView: UIScrollView!
 
   override func viewDidLoad() {
     super.viewDidLoad()
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    addContentView()
   }
 
-  override func didReceiveMemoryWarning() {
-    super.didReceiveMemoryWarning()
-    // Dispose of any resources that can be recreated.
+  private func addContentView() {
+    
+    let contentView = UIView()
+    contentView.setTranslatesAutoresizingMaskIntoConstraints(false)
+    
+    scrollView.addSubview(contentView)
+    TegAutolayoutConstraints.fillParent(contentView, parentView: scrollView, margin: 0, vertically: false)
+    TegAutolayoutConstraints.fillParent(contentView, parentView: scrollView, margin: 0, vertically: true)
+    TegAutolayoutConstraints.equalWidth(contentView, viewTwo: scrollView, constraintContainer: view)
+
+    for subview in scrollView.subviews {
+      if let currentSubview = subview as? UIView {
+        if currentSubview == contentView { continue }
+        contentView.addSubview(currentSubview)
+      }
+    }
+    
+    
+//    let constraints = scrollView.constraints()
+//    NSLayoutConstraint
+//    constraints[0]
+//    println("Scroll view constraints \(constraints.count)")
   }
-
-
 }
 

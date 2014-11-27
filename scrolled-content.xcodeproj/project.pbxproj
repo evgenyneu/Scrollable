@@ -13,6 +13,7 @@
 		2B9571901A27D4AB00BBE216 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B95718F1A27D4AB00BBE216 /* Images.xcassets */; };
 		2B9571931A27D4AB00BBE216 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B9571911A27D4AB00BBE216 /* LaunchScreen.xib */; };
 		2B95719F1A27D4AB00BBE216 /* scrolled_contentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B95719E1A27D4AB00BBE216 /* scrolled_contentTests.swift */; };
+		2B9571AA1A27E34C00BBE216 /* TegAutolayoutConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9571A91A27E34C00BBE216 /* TegAutolayoutConstraints.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		2B9571981A27D4AB00BBE216 /* scrolled-contentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "scrolled-contentTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B95719D1A27D4AB00BBE216 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B95719E1A27D4AB00BBE216 /* scrolled_contentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scrolled_contentTests.swift; sourceTree = "<group>"; };
+		2B9571A91A27E34C00BBE216 /* TegAutolayoutConstraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TegAutolayoutConstraints.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		2B9571851A27D4AB00BBE216 /* scrolled-content */ = {
 			isa = PBXGroup;
 			children = (
+				2B9571A81A27E33700BBE216 /* New Group */,
 				2B9571881A27D4AB00BBE216 /* AppDelegate.swift */,
 				2B95718A1A27D4AB00BBE216 /* ViewController.swift */,
 				2B95718C1A27D4AB00BBE216 /* Main.storyboard */,
@@ -110,6 +113,14 @@
 				2B95719D1A27D4AB00BBE216 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2B9571A81A27E33700BBE216 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				2B9571A91A27E34C00BBE216 /* TegAutolayoutConstraints.swift */,
+			);
+			name = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,6 +223,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B9571AA1A27E34C00BBE216 /* TegAutolayoutConstraints.swift in Sources */,
 				2B95718B1A27D4AB00BBE216 /* ViewController.swift in Sources */,
 				2B9571891A27D4AB00BBE216 /* AppDelegate.swift in Sources */,
 			);
