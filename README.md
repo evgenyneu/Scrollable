@@ -2,6 +2,8 @@
 
 This demo app shows how to make content scrolled vertically but not horizontally.
 
+<img src='https://raw.githubusercontent.com/exchangegroup/scrollable-content-ios/master/graphics/scrolling-content-vertically-autolayout-ios.png' width='320' alt='Scrolling content vertically with autolayout in iOS'>
+
 # Usage
 
 1. Add a scroll view to your storyboard with necessary constraints
