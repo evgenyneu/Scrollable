@@ -1,4 +1,4 @@
-# Scrolling content vertically in iOS with autolayout.
+# Scrolling content vertically in iOS with autolayout
 
 This demo app shows how to make content scrolled vertically but not horizontally.
 
