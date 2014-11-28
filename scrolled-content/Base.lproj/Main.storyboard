@@ -28,23 +28,6 @@
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VUZ-hD-Pjd">
-                                        <rect key="frame" x="20" y="170" width="199" height="31"/>
-                                        <mutableString key="text">Japanese ------
-
-改実ゆー良1測テイアフ未下れで雑追モヒ見室か女変ても呼北メ申師目ヌニセ兵裏リ再画べレーじ育惜サワ段毎うーも明間ムシトヌ資7見ロトニ辺連早柏よイらン。識ぎげぐき月手世ゆかぶ央印サチ署都回能ニケク能5著ウエロク報進ヘテエ円際すぴな交窓ぴさ掲強ごぐッん月断イスぎぽ宝同モニ特児ぐ女地以きをドだ来横セカト坊忠誉れ。
-
-第ヌセオ時謙ら開協ーわさ令構ッをせ下趣げびぐ知更キナヌマ国災シ補中ノコルク精善ぽ議39客戻杯1独イシ一省ひへぐ糖89慎ロフ就取ンおら終世木つしりま。実ぴルより論近ヱメソタ無8期内佐捕属ぴて氏支好子タ発炉ッ著制ロ満捕ネ情位き開藤ょは出記埋詰さーうは。超日ヌテ表様ソ初5稿わ政表れクげう要前ケセ後府ほーまそ地朗ラスア現竹ぶなちも撤鼻ヌス業面きをひ人望げえぐ済残で。
-
-免フ者融ざルぎ隊報トょライ責黒こらせ道役がま期与えゃた現境のっづょ暮棋読ロ興免球挙そ自1尼くほ僚測こ証抄ぜ。絵ろぴくの界後イニフ橋保清づ毎伴ちよッ出等化テヤ費73働迎変編6間ゃ表中ネクユウ水8又づ。超ごど億用り早備クソツ縦断フソヱヲ玲区テアト加失ハトケス鋼木康ケ列今ソノ供季ルぶっ読松れフイ多城調モ育元保ロケキヘ合2専泉えぜて。
-
-8存ロ氏機オ芸16書え無吐いンレあ疫支マニ分京最にゆ禁専テヱ者24相すち国道ヤコア到故講藤ナヘ型必めひ必挙メ報7基びけく約荒衝貨ず。大ニワヘエ遺悪外どスはこ文界境だ成頼ふ感31障アラレヲ崩懸禁ヲソヘヌ老教イシオ知相どいに月純し注炭熟耳るぼ。就ぼつぐ好者勢企ょ報文ス幕有トびぐぶ数英ワ覚歳ンけ会韓ざりラゆ挙生ケス清件モツヨフ段淑だ視析科を権谷中そぽゆむ。
-
-奥め真停チ身括ま信記コ米碁ムフ負野協せすク光止でばじ止訃ど有壊ルト選87帯ヒエウ掲人ヌエスナ味健せえ岐予イじフ含削ヤネヨシ説見るぜ者国マヌリ地士佑フこっは。長ニリ福食ルにぽど天83治すごこ有見ラルネセ決潮も変新三ウユ必図ぼかもゅ時社リト事合きで種知潮レびぽで海方最復軽ふじやあ。報もかさむ強株マ野獲思旬ねはんば期2首者えはぜ点皇ン運6以ノイ縄小ノナ招研川松ゅ。</mutableString>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m3h-dX-Tnd">
                                         <rect key="frame" x="20" y="209" width="158" height="21"/>
                                         <mutableString key="text">Greek ------
@@ -67,8 +50,24 @@
                                             <constraint firstAttribute="width" secondItem="16z-Wd-sB0" secondAttribute="height" multiplier="4:3" id="Aot-bo-zSV"/>
                                         </constraints>
                                     </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VUZ-hD-Pjd">
+                                        <rect key="frame" x="20" y="170" width="199" height="31"/>
+                                        <mutableString key="text">Japanese ------
+
+改実ゆー良1測テイアフ未下れで雑追モヒ見室か女変ても呼北メ申師目ヌニセ兵裏リ再画べレーじ育惜サワ段毎うーも明間ムシトヌ資7見ロトニ辺連早柏よイらン。識ぎげぐき月手世ゆかぶ央印サチ署都回能ニケク能5著ウエロク報進ヘテエ円際すぴな交窓ぴさ掲強ごぐッん月断イスぎぽ宝同モニ特児ぐ女地以きをドだ来横セカト坊忠誉れ。
+
+第ヌセオ時謙ら開協ーわさ令構ッをせ下趣げびぐ知更キナヌマ国災シ補中ノコルク精善ぽ議39客戻杯1独イシ一省ひへぐ糖89慎ロフ就取ンおら終世木つしりま。実ぴルより論近ヱメソタ無8期内佐捕属ぴて氏支好子タ発炉ッ著制ロ満捕ネ情位き開藤ょは出記埋詰さーうは。超日ヌテ表様ソ初5稿わ政表れクげう要前ケセ後府ほーまそ地朗ラスア現竹ぶなちも撤鼻ヌス業面きをひ人望げえぐ済残で。
+
+免フ者融ざルぎ隊報トょライ責黒こらせ道役がま期与えゃた現境のっづょ暮棋読ロ興免球挙そ自1尼くほ僚測こ証抄ぜ。絵ろぴくの界後イニフ橋保清づ毎伴ちよッ出等化テヤ費73働迎変編6間ゃ表中ネクユウ水8又づ。超ごど億用り早備クソツ縦断フソヱヲ玲区テアト加失ハトケス鋼木康ケ列今ソノ供季ルぶっ読松れフイ多城調モ育元保ロケキヘ合2専泉えぜて。
+
+8存ロ氏機オ芸16書え無吐いンレあ疫支マニ分京最にゆ禁専テヱ者24相すち国道ヤコア到故講藤ナヘ型必めひ必挙メ報7基びけく約荒衝貨ず。大ニワヘエ遺悪外どスはこ文界境だ成頼ふ感31障アラレヲ崩懸禁ヲソヘヌ老教イシオ知相どいに月純し注炭熟耳るぼ。就ぼつぐ好者勢企ょ報文ス幕有トびぐぶ数英ワ覚歳ンけ会韓ざりラゆ挙生ケス清件モツヨフ段淑だ視析科を権谷中そぽゆむ。
+
+奥め真停チ身括ま信記コ米碁ムフ負野協せすク光止でばじ止訃ど有壊ルト選87帯ヒエウ掲人ヌエスナ味健せえ岐予イじフ含削ヤネヨシ説見るぜ者国マヌリ地士佑フこっは。長ニリ福食ルにぽど天83治すごこ有見ラルネセ決潮も変新三ウユ必図ぼかもゅ時社リト事合きで種知潮レびぽで海方最復軽ふじやあ。報もかさむ強株マ野獲思旬ねはんば期2首者えはぜ点皇ン運6以ノイ縄小ノナ招研川松ゅ。</mutableString>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
-                                <color key="backgroundColor" red="0.44773638249999997" green="1" blue="0.46942728760000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstItem="m3h-dX-Tnd" firstAttribute="top" secondItem="VUZ-hD-Pjd" secondAttribute="bottom" constant="18" id="GcN-bf-KY5"/>
                                     <constraint firstItem="16z-Wd-sB0" firstAttribute="top" secondItem="Ow1-5f-AMx" secondAttribute="bottom" constant="23" id="JQ7-js-OdH"/>
@@ -76,7 +75,7 @@
                                     <constraint firstItem="Ow1-5f-AMx" firstAttribute="leading" secondItem="Soy-Zv-TUz" secondAttribute="leading" constant="10" id="LrJ-M7-Wds"/>
                                     <constraint firstItem="VUZ-hD-Pjd" firstAttribute="top" secondItem="16z-Wd-sB0" secondAttribute="bottom" constant="29" id="O1A-Gb-5H1"/>
                                     <constraint firstAttribute="bottom" secondItem="m3h-dX-Tnd" secondAttribute="bottom" constant="10" id="PPh-cW-tdI"/>
-                                    <constraint firstAttribute="trailing" secondItem="m3h-dX-Tnd" secondAttribute="trailing" constant="10" id="QA3-99-6Cu"/>
+                                    <constraint firstAttribute="trailing" secondItem="m3h-dX-Tnd" secondAttribute="trailing" constant="20" symbolic="YES" id="QA3-99-6Cu"/>
                                     <constraint firstItem="Ow1-5f-AMx" firstAttribute="top" secondItem="Soy-Zv-TUz" secondAttribute="top" constant="10" id="SbS-DZ-xOt"/>
                                     <constraint firstItem="16z-Wd-sB0" firstAttribute="leading" secondItem="Soy-Zv-TUz" secondAttribute="leading" constant="10" id="WE2-RF-cjN"/>
                                     <constraint firstItem="VUZ-hD-Pjd" firstAttribute="leading" secondItem="Soy-Zv-TUz" secondAttribute="leading" constant="10" id="cOs-PO-Csi"/>
