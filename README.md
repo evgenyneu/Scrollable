@@ -10,7 +10,11 @@ This demo app shows how to make content scrolled vertically but not horizontally
 1. In storyboard, drag content views to the scroll view (labels, images etc.)
 1. In storyboard, add autolayout constraints for the content views: top, bottom, leading and trailing.
 1. From storyboard, create a `scrollView` outlet for the scroll view in your view controller.
-1. In view controller's `viewDidLoad`, call `TegScrolledContent.createContentView(scrollView)`
+1. In view controller's `viewDidLoad`, call:
+
+```
+TegScrolledContent.createContentView(scrollView)
+```
 
 ## How it works
 
