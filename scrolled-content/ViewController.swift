@@ -14,41 +14,37 @@ class ViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     
-    addContentView()
+    let contentView = UIView()
+    scrollView.addSubview(contentView)
+    ViewController.embedSubviews(scrollView, inNewSuperview: contentView)
   }
 
-  private func addContentView() {
+  private class func embedSubviews(fromView: UIView, inNewSuperview newSuperview: UIView) {
+    newSuperview.setTranslatesAutoresizingMaskIntoConstraints(false)
     
-    let contentView = UIView()
-    contentView.setTranslatesAutoresizingMaskIntoConstraints(false)
-    scrollView.addSubview(contentView)
-    
-    let scrollViewConstraints = scrollView.constraints()
-    
-    // Move all scollview subviews to content view
-    for subview in scrollView.subviews {
+    // Move all subviews to newSuperview
+    for subview in fromView.subviews {
       if let currentSubview = subview as? UIView {
-        if currentSubview == contentView { continue }
-        currentSubview.removeFromSuperview()
-        contentView.addSubview(currentSubview)
+        if currentSubview == newSuperview { continue }
+        newSuperview.addSubview(currentSubview)
       }
     }
     
     // Move all scrollview constraints to contentView
-    ViewController.moveConstraints(scrollView, constraints: scrollViewConstraints, toView: contentView)
+    ViewController.moveConstraints(fromView, toView: newSuperview)
 
     // Make content view fill scroll view
-    TegAutolayoutConstraints.fillParent(contentView, parentView: scrollView, margin: 0, vertically: false)
-    TegAutolayoutConstraints.fillParent(contentView, parentView: scrollView, margin: 0, vertically: true)
+    TegAutolayoutConstraints.fillParent(newSuperview, parentView: fromView, margin: 0, vertically: false)
+    TegAutolayoutConstraints.fillParent(newSuperview, parentView: fromView, margin: 0, vertically: true)
     
     // Content view width is equal to scroll view width
-    TegAutolayoutConstraints.equalWidth(contentView, viewTwo: scrollView, constraintContainer: view)
-
+    TegAutolayoutConstraints.equalWidth(newSuperview, viewTwo: fromView, constraintContainer: fromView)
     
-    println("Scroll view constraints \(scrollView.constraints().count)")
+    println("Scroll view constraints \(fromView.constraints().count)")
   }
   
-  private class func moveConstraints(fromView: UIView, constraints: [AnyObject], toView: UIView) {
+  private class func moveConstraints(fromView: UIView, toView: UIView) {
+    let constraints = fromView.constraints()
     for constraint in constraints {
       if let currentConstraint = constraint as? NSLayoutConstraint {
         moveConstraint(currentConstraint, fromView: fromView, toView: toView)
@@ -58,8 +54,6 @@ class ViewController: UIViewController {
   
   private class func moveConstraint(constraint: NSLayoutConstraint,
     fromView: UIView, toView: UIView) {
-      
-    println("Constraint \(constraint)")
       
     if let currentFirstItem = constraint.firstItem as? NSObject {
       
