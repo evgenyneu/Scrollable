@@ -1,7 +1,6 @@
 # Scrolling content vertically in iOS with autolayout.
 
-This demo app shows how to make content scrolled vertically on the screen.
-Scroll view content width does not get larger than scroll view's width.
+This demo app shows how to make content scrolled vertically but not horizontally.
 
 # Usage
 
