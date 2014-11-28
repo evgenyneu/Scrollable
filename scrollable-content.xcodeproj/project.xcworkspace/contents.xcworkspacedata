@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:scrolled-content.xcodeproj">
+      location = "self:scrollable-content.xcodeproj">
    </FileRef>
 </Workspace>
