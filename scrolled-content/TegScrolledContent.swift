@@ -15,6 +15,7 @@ class TegScrolledContent {
     scrollView.addSubview(contentView)
     TegScrolledContent.embedSubviews(scrollView, inNewSuperview: contentView)
     TegScrolledContent.layoutContentViewInScrollView(contentView, scrollView: scrollView)
+    scrollView.layoutIfNeeded()
     
     return contentView
   }
