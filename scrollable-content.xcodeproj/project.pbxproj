@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B1151B01ADF95BA00FC26C5 /* TegScrolledContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1151AF1ADF95BA00FC26C5 /* TegScrolledContent.swift */; };
 		2B9571891A27D4AB00BBE216 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9571881A27D4AB00BBE216 /* AppDelegate.swift */; };
 		2B95718B1A27D4AB00BBE216 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B95718A1A27D4AB00BBE216 /* ViewController.swift */; };
 		2B95718E1A27D4AB00BBE216 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B95718C1A27D4AB00BBE216 /* Main.storyboard */; };
@@ -15,7 +16,6 @@
 		2B95719F1A27D4AB00BBE216 /* scrolled_contentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B95719E1A27D4AB00BBE216 /* scrolled_contentTests.swift */; };
 		2B9571AA1A27E34C00BBE216 /* TegAutolayoutConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9571A91A27E34C00BBE216 /* TegAutolayoutConstraints.swift */; };
 		2B9571AC1A27E90D00BBE216 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B9571AB1A27E90D00BBE216 /* Default-568h@2x.png */; };
-		2B9571AF1A27F8C900BBE216 /* TegScrolledContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9571AE1A27F8C900BBE216 /* TegScrolledContent.swift */; };
 		2B9571B41A27FD2B00BBE216 /* armadillo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2B9571B31A27FD2B00BBE216 /* armadillo.jpg */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2B1151AF1ADF95BA00FC26C5 /* TegScrolledContent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TegScrolledContent.swift; sourceTree = "<group>"; };
 		2B9571831A27D4AB00BBE216 /* scrollable-content.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "scrollable-content.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B9571871A27D4AB00BBE216 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B9571881A27D4AB00BBE216 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -42,7 +43,6 @@
 		2B95719E1A27D4AB00BBE216 /* scrolled_contentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scrolled_contentTests.swift; sourceTree = "<group>"; };
 		2B9571A91A27E34C00BBE216 /* TegAutolayoutConstraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TegAutolayoutConstraints.swift; sourceTree = "<group>"; };
 		2B9571AB1A27E90D00BBE216 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		2B9571AE1A27F8C900BBE216 /* TegScrolledContent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TegScrolledContent.swift; sourceTree = "<group>"; };
 		2B9571B31A27FD2B00BBE216 /* armadillo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = armadillo.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -87,7 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				2B9571B01A27FC9200BBE216 /* Images */,
-				2B9571AD1A27F8B800BBE216 /* ScrolledContent */,
+				2B9571AD1A27F8B800BBE216 /* Lib */,
 				2B9571A81A27E33700BBE216 /* Utils */,
 				2B9571881A27D4AB00BBE216 /* AppDelegate.swift */,
 				2B95718A1A27D4AB00BBE216 /* ViewController.swift */,
@@ -132,12 +132,12 @@
 			name = Utils;
 			sourceTree = "<group>";
 		};
-		2B9571AD1A27F8B800BBE216 /* ScrolledContent */ = {
+		2B9571AD1A27F8B800BBE216 /* Lib */ = {
 			isa = PBXGroup;
 			children = (
-				2B9571AE1A27F8C900BBE216 /* TegScrolledContent.swift */,
+				2B1151AF1ADF95BA00FC26C5 /* TegScrolledContent.swift */,
 			);
-			name = ScrolledContent;
+			name = Lib;
 			sourceTree = "<group>";
 		};
 		2B9571B01A27FC9200BBE216 /* Images */ = {
@@ -252,7 +252,7 @@
 			files = (
 				2B9571AA1A27E34C00BBE216 /* TegAutolayoutConstraints.swift in Sources */,
 				2B95718B1A27D4AB00BBE216 /* ViewController.swift in Sources */,
-				2B9571AF1A27F8C900BBE216 /* TegScrolledContent.swift in Sources */,
+				2B1151B01ADF95BA00FC26C5 /* TegScrolledContent.swift in Sources */,
 				2B9571891A27D4AB00BBE216 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -447,6 +447,7 @@
 				2B9571A41A27D4AB00BBE216 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2B9571A51A27D4AB00BBE216 /* Build configuration list for PBXNativeTarget "scrollable-contentTests" */ = {
 			isa = XCConfigurationList;
@@ -455,6 +456,7 @@
 				2B9571A71A27D4AB00BBE216 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
