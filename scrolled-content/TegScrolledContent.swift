@@ -25,9 +25,9 @@ class TegScrolledContent {
     
     // Move all subviews to newSuperview
     for subview in fromView.subviews {
-      if let currentSubview = subview as? UIView {
-        if currentSubview == newSuperview { continue }
-        newSuperview.addSubview(currentSubview)
+      if let subview = subview as? UIView {
+        if subview == newSuperview { continue }
+        newSuperview.addSubview(subview)
       }
     }
     
@@ -38,8 +38,8 @@ class TegScrolledContent {
   class func moveConstraints(fromView: UIView, toView: UIView) {
     let constraints = fromView.constraints()
     for constraint in constraints {
-      if let currentConstraint = constraint as? NSLayoutConstraint {
-        moveConstraint(currentConstraint, fromView: fromView, toView: toView)
+      if let constraint = constraint as? NSLayoutConstraint {
+        moveConstraint(constraint, fromView: fromView, toView: toView)
       }
     }
   }
@@ -47,12 +47,12 @@ class TegScrolledContent {
   private class func moveConstraint(constraint: NSLayoutConstraint,
     fromView: UIView, toView: UIView) {
       
-      if let currentFirstItem = constraint.firstItem as? NSObject {
+      if let firstItem = constraint.firstItem as? NSObject {
         
-        let newFirstItem = currentFirstItem == fromView ? toView : currentFirstItem
+        let newFirstItem = firstItem == fromView ? toView : firstItem
         
-        if let currentSecondItem = constraint.secondItem as? NSObject {
-          let newSecondItem = currentSecondItem == fromView ? toView : currentSecondItem
+        if let secondItem = constraint.secondItem as? NSObject {
+          let newSecondItem = secondItem == fromView ? toView : secondItem
           
           let newConstraint = NSLayoutConstraint(
             item: newFirstItem,
