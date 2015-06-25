@@ -1,8 +1,28 @@
 # Scrolling content vertically in iOS with autolayout
 
-This demo app shows how to make content scrolled vertically but not horizontally.
+This is a small iOS library that helps scrolling screen content vertically, similar to web browser scrolling.
 
 <img src='https://raw.githubusercontent.com/exchangegroup/scrollable-content-ios/master/graphics/scrolling-content-vertically-autolayout-ios.png' width='320' alt='Scrolling content vertically with autolayout in iOS'>
+
+
+## Setup
+
+There are three ways you can add Scrollable to your Xcode project.
+
+**Add source (iOS 7+)**
+
+Simply add [ScrollableDistrib.swift](https://github.com/exchangegroup/Cosmos/blob/master/Distrib/CosmosDistrib.swift) file into your Xcode project.
+
+**Setup with Carthage (iOS 8+)**
+
+Alternatively, add `github "exchangegroup/Cosmos" ~> 1.0` to your Cartfile and run `carthage update`.
+
+**Setup with CocoaPods (iOS 8+)**
+
+If you are using CocoaPods add this text to your Podfile and run `pod install`.
+
+    use_frameworks!
+    pod 'Cosmos', '~> 1.0'
 
 # Usage
 
@@ -34,6 +54,6 @@ Assertion failure in -[NSLayoutConstraint constant], /SourceCache/Foundation/Fou
 
 Image of armadillo is made by [Adrián Rodríguez](http://www.freeimages.com/profile/neferto) and taken from [http://www.freeimages.com/photo/1339784](http://www.freeimages.com/photo/1339784).
 
-## Home
+## License
 
-[https://github.com/exchangegroup/scrollable-content-ios](https://github.com/exchangegroup/scrollable-content-ios)
+Scrollable is released under the [MIT License](LICENSE).
