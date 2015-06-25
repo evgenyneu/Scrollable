@@ -1,4 +1,4 @@
-# Scrolling content vertically in iOS with autolayout
+# Scrolling content vertically in iOS with Auto Layout
 
 This is a small iOS library that helps scrolling screen content vertically, similar to web browser scrolling.
 
@@ -11,24 +11,24 @@ There are three ways you can add Scrollable to your Xcode project.
 
 **Add source (iOS 7+)**
 
-Simply add [ScrollableDistrib.swift](https://github.com/exchangegroup/Cosmos/blob/master/Distrib/CosmosDistrib.swift) file into your Xcode project.
+Simply add [ScrollableDistrib.swift](https://github.com/exchangegroup/Scrollable/blob/master/Distrib/ScrollableDistrib.swift) file into your Xcode project.
 
 **Setup with Carthage (iOS 8+)**
 
-Alternatively, add `github "exchangegroup/Cosmos" ~> 1.0` to your Cartfile and run `carthage update`.
+Alternatively, add `github "exchangegroup/Scrollable" ~> 1.0` to your Cartfile and run `carthage update`.
 
 **Setup with CocoaPods (iOS 8+)**
 
 If you are using CocoaPods add this text to your Podfile and run `pod install`.
 
     use_frameworks!
-    pod 'Cosmos', '~> 1.0'
+    pod 'Scrollable', '~> 1.0'
 
 # Usage
 
-1. Add a scroll view to your storyboard with necessary constraints
+1. Add a scroll view to your storyboard with necessary constraints.
 1. In storyboard, drag content views to the scroll view (labels, images etc.)
-1. In storyboard, add autolayout constraints for the content views: top, bottom, leading and trailing.
+1. In storyboard, add Auto Layout constraints for the content views: top, bottom, leading and trailing.
 1. From storyboard, create a `scrollView` outlet for the scroll view in your view controller.
 1. In view controller's `viewDidLoad`, call:
 
@@ -43,7 +43,7 @@ Then it goes through all scroll view constraints and moves them into the **conte
 
 ## Troubleshooting
 
-When creating autolayout constraint for content views please use numeric values for the `Constant` field. When I left it empty (`Standard`) it threw an exception:
+When creating Auto Layout constraint for content views please use numeric values for the `Constant` field. When I left it empty (`Standard`) it threw an exception:
 
 ```
 Assertion failure in -[NSLayoutConstraint constant], /SourceCache/Foundation/Foundation-1047.25/Layout.subproj/NSLayoutConstraint.m:601
