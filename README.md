@@ -1,5 +1,13 @@
 # Scrolling content vertically in iOS with Auto Layout
 
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)][carthage]
+[![CocoaPods Version](https://img.shields.io/cocoapods/v/Scrollable.svg?style=flat)][cocoadocs]
+[![License](https://img.shields.io/cocoapods/l/Scrollable.svg?style=flat)](LICENSE)
+[![Platform](https://img.shields.io/cocoapods/p/Scrollable.svg?style=flat)][cocoadocs]
+[cocoadocs]: http://cocoadocs.org/docsets/Scrollable
+[carthage]: https://github.com/Carthage/Carthage
+
+
 This an an iOS library that helps scrolling screen content vertically, similar how the content is scrolled in the web browser.
 
 <img src='https://raw.githubusercontent.com/exchangegroup/scrollable-content-ios/master/graphics/scrolling-content-vertically-autolayout-ios.png' width='320' alt='Scrolling content vertically with autolayout in iOS'>
