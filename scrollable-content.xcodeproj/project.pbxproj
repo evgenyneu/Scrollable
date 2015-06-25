@@ -7,13 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2B1151B01ADF95BA00FC26C5 /* TegScrolledContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1151AF1ADF95BA00FC26C5 /* TegScrolledContent.swift */; };
 		2B9571891A27D4AB00BBE216 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9571881A27D4AB00BBE216 /* AppDelegate.swift */; };
 		2B95718B1A27D4AB00BBE216 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B95718A1A27D4AB00BBE216 /* ViewController.swift */; };
 		2B95718E1A27D4AB00BBE216 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B95718C1A27D4AB00BBE216 /* Main.storyboard */; };
 		2B9571901A27D4AB00BBE216 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B95718F1A27D4AB00BBE216 /* Images.xcassets */; };
 		2B9571931A27D4AB00BBE216 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B9571911A27D4AB00BBE216 /* LaunchScreen.xib */; };
-		2B9571AA1A27E34C00BBE216 /* TegAutolayoutConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9571A91A27E34C00BBE216 /* TegAutolayoutConstraints.swift */; };
 		2B9571AC1A27E90D00BBE216 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B9571AB1A27E90D00BBE216 /* Default-568h@2x.png */; };
 		2B9571B41A27FD2B00BBE216 /* armadillo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2B9571B31A27FD2B00BBE216 /* armadillo.jpg */; };
 		7EEFFE921B3BAFFB00962ECE /* Scrollable.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EEFFE911B3BAFFB00962ECE /* Scrollable.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -21,6 +19,8 @@
 		7EEFFEA01B3BAFFB00962ECE /* ScrollableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EEFFE9F1B3BAFFB00962ECE /* ScrollableTests.swift */; };
 		7EEFFEA41B3BAFFB00962ECE /* Scrollable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EEFFE8F1B3BAFFB00962ECE /* Scrollable.framework */; };
 		7EEFFEA51B3BAFFB00962ECE /* Scrollable.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7EEFFE8F1B3BAFFB00962ECE /* Scrollable.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7EEFFEB11B3BB0AD00962ECE /* TegAutolayoutConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EEFFEB01B3BB0AD00962ECE /* TegAutolayoutConstraints.swift */; };
+		7EEFFEB31B3BB0BC00962ECE /* Scrollable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EEFFEB21B3BB0BC00962ECE /* Scrollable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,7 +62,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		2B1151AF1ADF95BA00FC26C5 /* TegScrolledContent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TegScrolledContent.swift; sourceTree = "<group>"; };
 		2B9571831A27D4AB00BBE216 /* scrollable-content.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "scrollable-content.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B9571871A27D4AB00BBE216 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B9571881A27D4AB00BBE216 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -70,7 +69,6 @@
 		2B95718D1A27D4AB00BBE216 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2B95718F1A27D4AB00BBE216 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		2B9571921A27D4AB00BBE216 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		2B9571A91A27E34C00BBE216 /* TegAutolayoutConstraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TegAutolayoutConstraints.swift; sourceTree = "<group>"; };
 		2B9571AB1A27E90D00BBE216 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		2B9571B31A27FD2B00BBE216 /* armadillo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = armadillo.jpg; sourceTree = "<group>"; };
 		7EEFFE8F1B3BAFFB00962ECE /* Scrollable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Scrollable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -79,6 +77,8 @@
 		7EEFFE981B3BAFFB00962ECE /* ScrollableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EEFFE9F1B3BAFFB00962ECE /* ScrollableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollableTests.swift; sourceTree = "<group>"; };
 		7EEFFEA11B3BAFFB00962ECE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EEFFEB01B3BB0AD00962ECE /* TegAutolayoutConstraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TegAutolayoutConstraints.swift; sourceTree = "<group>"; };
+		7EEFFEB21B3BB0BC00962ECE /* Scrollable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scrollable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,9 +112,9 @@
 			isa = PBXGroup;
 			children = (
 				2B9571AB1A27E90D00BBE216 /* Default-568h@2x.png */,
-				2B9571851A27D4AB00BBE216 /* Demo */,
 				7EEFFE901B3BAFFB00962ECE /* Scrollable */,
 				7EEFFE9E1B3BAFFB00962ECE /* ScrollableTests */,
+				2B9571851A27D4AB00BBE216 /* Demo */,
 				2B9571841A27D4AB00BBE216 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -133,8 +133,6 @@
 			isa = PBXGroup;
 			children = (
 				2B9571B01A27FC9200BBE216 /* Images */,
-				2B9571AD1A27F8B800BBE216 /* Lib */,
-				2B9571A81A27E33700BBE216 /* Utils */,
 				2B9571881A27D4AB00BBE216 /* AppDelegate.swift */,
 				2B95718A1A27D4AB00BBE216 /* ViewController.swift */,
 				2B95718C1A27D4AB00BBE216 /* Main.storyboard */,
@@ -153,22 +151,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		2B9571A81A27E33700BBE216 /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-				2B9571A91A27E34C00BBE216 /* TegAutolayoutConstraints.swift */,
-			);
-			name = Utils;
-			sourceTree = "<group>";
-		};
-		2B9571AD1A27F8B800BBE216 /* Lib */ = {
-			isa = PBXGroup;
-			children = (
-				2B1151AF1ADF95BA00FC26C5 /* TegScrolledContent.swift */,
-			);
-			name = Lib;
-			sourceTree = "<group>";
-		};
 		2B9571B01A27FC9200BBE216 /* Images */ = {
 			isa = PBXGroup;
 			children = (
@@ -180,6 +162,8 @@
 		7EEFFE901B3BAFFB00962ECE /* Scrollable */ = {
 			isa = PBXGroup;
 			children = (
+				7EEFFEAD1B3BB08800962ECE /* Utils */,
+				7EEFFEB21B3BB0BC00962ECE /* Scrollable.swift */,
 				7EEFFE911B3BAFFB00962ECE /* Scrollable.h */,
 				7EEFFE931B3BAFFB00962ECE /* Info.plist */,
 			);
@@ -193,6 +177,14 @@
 				7EEFFEA11B3BAFFB00962ECE /* Info.plist */,
 			);
 			path = ScrollableTests;
+			sourceTree = "<group>";
+		};
+		7EEFFEAD1B3BB08800962ECE /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				7EEFFEB01B3BB0AD00962ECE /* TegAutolayoutConstraints.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -341,9 +333,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B9571AA1A27E34C00BBE216 /* TegAutolayoutConstraints.swift in Sources */,
 				2B95718B1A27D4AB00BBE216 /* ViewController.swift in Sources */,
-				2B1151B01ADF95BA00FC26C5 /* TegScrolledContent.swift in Sources */,
 				2B9571891A27D4AB00BBE216 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -352,6 +342,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EEFFEB31B3BB0BC00962ECE /* Scrollable.swift in Sources */,
+				7EEFFEB11B3BB0AD00962ECE /* TegAutolayoutConstraints.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -487,6 +479,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = Demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "au.com.theexchangegroup.$(PRODUCT_NAME:rfc1034identifier)";
@@ -498,6 +491,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = Demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "au.com.theexchangegroup.$(PRODUCT_NAME:rfc1034identifier)";
@@ -508,6 +502,7 @@
 		7EEFFEA71B3BAFFB00962ECE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
@@ -521,6 +516,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = au.com.marketplacer.Scrollable;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -529,6 +525,7 @@
 		7EEFFEA81B3BAFFB00962ECE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
