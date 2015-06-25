@@ -7,9 +7,7 @@ class ViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     
-    TegScrolledContent.createContentView(scrollView)
-   
-    print("Scroll view constraints \(scrollView.constraints.count)")
+    Scrollable.createContentView(scrollView)   
   }
 }
 

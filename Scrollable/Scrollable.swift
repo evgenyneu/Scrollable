@@ -5,12 +5,12 @@ import UIKit
 Makes the content in the scroll view scrollable.
 
 */
-public class TegScrolledContent {
+public class Scrollable {
   public class func createContentView(scrollView: UIScrollView) -> UIView {
     let contentView = UIView()
     scrollView.addSubview(contentView)
-    TegScrolledContent.embedSubviews(scrollView, inNewSuperview: contentView)
-    TegScrolledContent.layoutContentViewInScrollView(contentView, scrollView: scrollView)
+    Scrollable.embedSubviews(scrollView, inNewSuperview: contentView)
+    Scrollable.layoutContentViewInScrollView(contentView, scrollView: scrollView)
     scrollView.layoutIfNeeded()
 
     return contentView

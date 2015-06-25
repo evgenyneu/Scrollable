@@ -13,12 +13,12 @@ This demo app shows how to make content scrolled vertically but not horizontally
 1. In view controller's `viewDidLoad`, call:
 
 ```
-TegScrolledContent.createContentView(scrollView)
+Scrollable.createContentView(scrollView)
 ```
 
 ## How it works
 
-`TegScrolledContent.createContentView` function creates a **content view** and embeds all scroll view subviews in it.
+`Scrollable.createContentView` function creates a **content view** and embeds all scroll view subviews in it.
 Then it goes through all scroll view constraints and moves them into the **content view**.
 
 ## Troubleshooting
