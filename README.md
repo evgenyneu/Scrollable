@@ -1,6 +1,6 @@
 # Scrolling content vertically in iOS with Auto Layout
 
-This is a small iOS library that helps scrolling screen content vertically, similar to web browser scrolling.
+This an an iOS library that helps scrolling screen content vertically, similar how the content is scrolled in the web browser.
 
 <img src='https://raw.githubusercontent.com/exchangegroup/scrollable-content-ios/master/graphics/scrolling-content-vertically-autolayout-ios.png' width='320' alt='Scrolling content vertically with autolayout in iOS'>
 
