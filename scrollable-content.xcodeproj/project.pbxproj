@@ -14,7 +14,6 @@
 		2B9571931A27D4AB00BBE216 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B9571911A27D4AB00BBE216 /* LaunchScreen.xib */; };
 		2B9571AC1A27E90D00BBE216 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B9571AB1A27E90D00BBE216 /* Default-568h@2x.png */; };
 		2B9571B41A27FD2B00BBE216 /* armadillo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2B9571B31A27FD2B00BBE216 /* armadillo.jpg */; };
-		7EE7B4531B3BB396007F7843 /* ScrollableDistrib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EE7B4521B3BB396007F7843 /* ScrollableDistrib.swift */; };
 		7EEFFE921B3BAFFB00962ECE /* Scrollable.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EEFFE911B3BAFFB00962ECE /* Scrollable.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7EEFFE991B3BAFFB00962ECE /* Scrollable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EEFFE8F1B3BAFFB00962ECE /* Scrollable.framework */; };
 		7EEFFEA01B3BAFFB00962ECE /* ScrollableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EEFFE9F1B3BAFFB00962ECE /* ScrollableTests.swift */; };
@@ -374,7 +373,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7EE7B4531B3BB396007F7843 /* ScrollableDistrib.swift in Sources */,
 				7EEFFEB31B3BB0BC00962ECE /* Scrollable.swift in Sources */,
 				7EEFFEB11B3BB0AD00962ECE /* ScrollableAutolayoutConstraints.swift in Sources */,
 			);
