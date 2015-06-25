@@ -13,21 +13,10 @@
 		2B95718E1A27D4AB00BBE216 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B95718C1A27D4AB00BBE216 /* Main.storyboard */; };
 		2B9571901A27D4AB00BBE216 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B95718F1A27D4AB00BBE216 /* Images.xcassets */; };
 		2B9571931A27D4AB00BBE216 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B9571911A27D4AB00BBE216 /* LaunchScreen.xib */; };
-		2B95719F1A27D4AB00BBE216 /* scrolled_contentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B95719E1A27D4AB00BBE216 /* scrolled_contentTests.swift */; };
 		2B9571AA1A27E34C00BBE216 /* TegAutolayoutConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9571A91A27E34C00BBE216 /* TegAutolayoutConstraints.swift */; };
 		2B9571AC1A27E90D00BBE216 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B9571AB1A27E90D00BBE216 /* Default-568h@2x.png */; };
 		2B9571B41A27FD2B00BBE216 /* armadillo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2B9571B31A27FD2B00BBE216 /* armadillo.jpg */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		2B9571991A27D4AB00BBE216 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2B95717B1A27D4AB00BBE216 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2B9571821A27D4AB00BBE216;
-			remoteInfo = "scrolled-content";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		2B1151AF1ADF95BA00FC26C5 /* TegScrolledContent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TegScrolledContent.swift; sourceTree = "<group>"; };
@@ -38,9 +27,6 @@
 		2B95718D1A27D4AB00BBE216 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2B95718F1A27D4AB00BBE216 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		2B9571921A27D4AB00BBE216 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		2B9571981A27D4AB00BBE216 /* scrollable-contentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "scrollable-contentTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2B95719D1A27D4AB00BBE216 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2B95719E1A27D4AB00BBE216 /* scrolled_contentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scrolled_contentTests.swift; sourceTree = "<group>"; };
 		2B9571A91A27E34C00BBE216 /* TegAutolayoutConstraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TegAutolayoutConstraints.swift; sourceTree = "<group>"; };
 		2B9571AB1A27E90D00BBE216 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		2B9571B31A27FD2B00BBE216 /* armadillo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = armadillo.jpg; sourceTree = "<group>"; };
@@ -54,13 +40,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2B9571951A27D4AB00BBE216 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -68,8 +47,7 @@
 			isa = PBXGroup;
 			children = (
 				2B9571AB1A27E90D00BBE216 /* Default-568h@2x.png */,
-				2B9571851A27D4AB00BBE216 /* scrolled-content */,
-				2B95719B1A27D4AB00BBE216 /* scrolled-contentTests */,
+				2B9571851A27D4AB00BBE216 /* Demo */,
 				2B9571841A27D4AB00BBE216 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -78,12 +56,11 @@
 			isa = PBXGroup;
 			children = (
 				2B9571831A27D4AB00BBE216 /* scrollable-content.app */,
-				2B9571981A27D4AB00BBE216 /* scrollable-contentTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2B9571851A27D4AB00BBE216 /* scrolled-content */ = {
+		2B9571851A27D4AB00BBE216 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
 				2B9571B01A27FC9200BBE216 /* Images */,
@@ -96,30 +73,13 @@
 				2B9571911A27D4AB00BBE216 /* LaunchScreen.xib */,
 				2B9571861A27D4AB00BBE216 /* Supporting Files */,
 			);
-			path = "scrolled-content";
+			path = Demo;
 			sourceTree = "<group>";
 		};
 		2B9571861A27D4AB00BBE216 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
 				2B9571871A27D4AB00BBE216 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		2B95719B1A27D4AB00BBE216 /* scrolled-contentTests */ = {
-			isa = PBXGroup;
-			children = (
-				2B95719E1A27D4AB00BBE216 /* scrolled_contentTests.swift */,
-				2B95719C1A27D4AB00BBE216 /* Supporting Files */,
-			);
-			path = "scrolled-contentTests";
-			sourceTree = "<group>";
-		};
-		2B95719C1A27D4AB00BBE216 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				2B95719D1A27D4AB00BBE216 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -168,24 +128,6 @@
 			productReference = 2B9571831A27D4AB00BBE216 /* scrollable-content.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2B9571971A27D4AB00BBE216 /* scrollable-contentTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2B9571A51A27D4AB00BBE216 /* Build configuration list for PBXNativeTarget "scrollable-contentTests" */;
-			buildPhases = (
-				2B9571941A27D4AB00BBE216 /* Sources */,
-				2B9571951A27D4AB00BBE216 /* Frameworks */,
-				2B9571961A27D4AB00BBE216 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2B95719A1A27D4AB00BBE216 /* PBXTargetDependency */,
-			);
-			name = "scrollable-contentTests";
-			productName = "scrolled-contentTests";
-			productReference = 2B9571981A27D4AB00BBE216 /* scrollable-contentTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -198,10 +140,6 @@
 				TargetAttributes = {
 					2B9571821A27D4AB00BBE216 = {
 						CreatedOnToolsVersion = 6.1;
-					};
-					2B9571971A27D4AB00BBE216 = {
-						CreatedOnToolsVersion = 6.1;
-						TestTargetID = 2B9571821A27D4AB00BBE216;
 					};
 				};
 			};
@@ -219,7 +157,6 @@
 			projectRoot = "";
 			targets = (
 				2B9571821A27D4AB00BBE216 /* scrollable-content */,
-				2B9571971A27D4AB00BBE216 /* scrollable-contentTests */,
 			);
 		};
 /* End PBXProject section */
@@ -237,13 +174,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2B9571961A27D4AB00BBE216 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -258,23 +188,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2B9571941A27D4AB00BBE216 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2B95719F1A27D4AB00BBE216 /* scrolled_contentTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		2B95719A1A27D4AB00BBE216 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 2B9571821A27D4AB00BBE216 /* scrollable-content */;
-			targetProxy = 2B9571991A27D4AB00BBE216 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		2B95718C1A27D4AB00BBE216 /* Main.storyboard */ = {
@@ -380,7 +294,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "scrolled-content/Info.plist";
+				INFOPLIST_FILE = Demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "au.com.theexchangegroup.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "scrollable-content";
@@ -391,46 +305,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "scrolled-content/Info.plist";
+				INFOPLIST_FILE = Demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "au.com.theexchangegroup.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "scrollable-content";
-			};
-			name = Release;
-		};
-		2B9571A61A27D4AB00BBE216 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "scrolled-contentTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "au.com.theexchangegroup.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "scrollable-contentTests";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/scrollable-content.app/scrollable-content";
-			};
-			name = Debug;
-		};
-		2B9571A71A27D4AB00BBE216 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "scrolled-contentTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "au.com.theexchangegroup.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "scrollable-contentTests";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/scrollable-content.app/scrollable-content";
 			};
 			name = Release;
 		};
@@ -451,15 +329,6 @@
 			buildConfigurations = (
 				2B9571A31A27D4AB00BBE216 /* Debug */,
 				2B9571A41A27D4AB00BBE216 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2B9571A51A27D4AB00BBE216 /* Build configuration list for PBXNativeTarget "scrollable-contentTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2B9571A61A27D4AB00BBE216 /* Debug */,
-				2B9571A71A27D4AB00BBE216 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
