@@ -1,5 +1,5 @@
 //
-// Star rating control written in Swift for iOS.
+// An iOS control that makes content scroll vertically.
 //
 // https://github.com/exchangegroup/Scrollable
 //
