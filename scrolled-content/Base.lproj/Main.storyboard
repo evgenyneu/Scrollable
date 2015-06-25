@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6249" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8121.20" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6243"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8101.16"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
@@ -21,15 +21,15 @@
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Soy-Zv-TUz">
                                 <rect key="frame" x="0.0" y="20" width="600" height="580"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ow1-5f-AMx">
-                                        <rect key="frame" x="20" y="20" width="122" height="21"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ow1-5f-AMx">
+                                        <rect key="frame" x="10" y="10" width="4180" height="20.5"/>
                                         <string key="text">Lorem ipsum dolor sit amet, dicam ancillae mea eu. Sed id probatus consulatu. Vide saperet admodum an eum. Ne facete moderatius sea, his corpora concludaturque an.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m3h-dX-Tnd">
-                                        <rect key="frame" x="20" y="209" width="158" height="21"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m3h-dX-Tnd">
+                                        <rect key="frame" x="10" y="383" width="4180" height="183"/>
                                         <string key="text">Greek -------------
 
 Κυι δισαθ αθωμωρυμ ει, ετ υσυ ιδκυε επισυρι. Ει ελιτ δεβιθις σονσεσθεθυερ φελ, υσυ ιγνωθα ιυφαρεθ συ. Εως επισυρει παρτιενδω περτινασια θε, φιφενδω τεμποριβυς ατ κυο, σιθ ιν αθκυι δοσθυς φιδισε. Εαμ ιν συας δελενιτ δισεντιας, νο διαμ φερεαρ αυδιρε ηας. Δισυντ σενσιβυς ετ φις.
@@ -43,15 +43,15 @@
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="armadillo.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="16z-Wd-sB0">
-                                        <rect key="frame" x="20" y="56" width="142" height="91"/>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="armadillo.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="16z-Wd-sB0">
+                                        <rect key="frame" x="10" y="53" width="133.5" height="100"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="100" id="6Je-Js-vdN"/>
                                             <constraint firstAttribute="width" secondItem="16z-Wd-sB0" secondAttribute="height" multiplier="4:3" id="Aot-bo-zSV"/>
                                         </constraints>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VUZ-hD-Pjd">
-                                        <rect key="frame" x="20" y="170" width="199" height="31"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VUZ-hD-Pjd">
+                                        <rect key="frame" x="10" y="182" width="4180" height="183"/>
                                         <string key="text">改実ゆー良1測テイアフ未下れで雑追モヒ見室か女変ても呼北メ申師目ヌニセ兵裏リ再画べレーじ育惜サワ段毎うーも明間ムシトヌ資7見ロトニ辺連早柏よイらン。識ぎげぐき月手世ゆかぶ央印サチ署都回能ニケク能5著ウエロク報進ヘテエ円際すぴな交窓ぴさ掲強ごぐッん月断イスぎぽ宝同モニ特児ぐ女地以きをドだ来横セカト坊忠誉れ。
 
 第ヌセオ時謙ら開協ーわさ令構ッをせ下趣げびぐ知更キナヌマ国災シ補中ノコルク精善ぽ議39客戻杯1独イシ一省ひへぐ糖89慎ロフ就取ンおら終世木つしりま。実ぴルより論近ヱメソタ無8期内佐捕属ぴて氏支好子タ発炉ッ著制ロ満捕ネ情位き開藤ょは出記埋詰さーうは。超日ヌテ表様ソ初5稿わ政表れクげう要前ケセ後府ほーまそ地朗ラスア現竹ぶなちも撤鼻ヌス業面きをひ人望げえぐ済残で。

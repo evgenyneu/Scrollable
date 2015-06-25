@@ -21,14 +21,12 @@ class TegScrolledContent {
   }
   
   class func embedSubviews(fromView: UIView, inNewSuperview newSuperview: UIView) {
-    newSuperview.setTranslatesAutoresizingMaskIntoConstraints(false)
+    newSuperview.translatesAutoresizingMaskIntoConstraints = false
     
     // Move all subviews to newSuperview
     for subview in fromView.subviews {
-      if let subview = subview as? UIView {
-        if subview == newSuperview { continue }
-        newSuperview.addSubview(subview)
-      }
+      if subview == newSuperview { continue }
+      newSuperview.addSubview(subview)
     }
     
     // Move all scrollview constraints to contentView
@@ -36,11 +34,9 @@ class TegScrolledContent {
   }
   
   class func moveConstraints(fromView: UIView, toView: UIView) {
-    let constraints = fromView.constraints()
+    let constraints = fromView.constraints
     for constraint in constraints {
-      if let constraint = constraint as? NSLayoutConstraint {
-        moveConstraint(constraint, fromView: fromView, toView: toView)
-      }
+      moveConstraint(constraint, fromView: fromView, toView: toView)
     }
   }
   

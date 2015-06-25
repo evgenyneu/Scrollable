@@ -192,7 +192,8 @@
 		2B95717B1A27D4AB00BBE216 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0610;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "The Exchange Group Pty Ltd";
 				TargetAttributes = {
 					2B9571821A27D4AB00BBE216 = {
@@ -315,6 +316,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -380,6 +382,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "scrolled-content/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "au.com.theexchangegroup.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "scrollable-content";
 			};
 			name = Debug;
@@ -390,6 +393,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "scrolled-content/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "au.com.theexchangegroup.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "scrollable-content";
 			};
 			name = Release;
@@ -408,6 +412,7 @@
 				);
 				INFOPLIST_FILE = "scrolled-contentTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "au.com.theexchangegroup.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "scrollable-contentTests";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/scrollable-content.app/scrollable-content";
 			};
@@ -423,6 +428,7 @@
 				);
 				INFOPLIST_FILE = "scrolled-contentTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "au.com.theexchangegroup.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "scrollable-contentTests";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/scrollable-content.app/scrollable-content";
 			};

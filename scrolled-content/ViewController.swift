@@ -8,7 +8,7 @@ class ViewController: UIViewController {
     
     TegScrolledContent.createContentView(scrollView)
    
-    println("Scroll view constraints \(scrollView.constraints().count)")
+    print("Scroll view constraints \(scrollView.constraints.count)")
   }
 }
 

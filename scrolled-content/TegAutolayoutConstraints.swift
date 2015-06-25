@@ -19,7 +19,7 @@ class TegAutolayoutConstraints {
     }
     
     let constraints = NSLayoutConstraint.constraintsWithVisualFormat(format,
-      options: nil, metrics: nil,
+      options: [], metrics: nil,
       views: ["view": view])
     
     parentView.addConstraints(constraints)
@@ -27,15 +27,12 @@ class TegAutolayoutConstraints {
   
   class func equalWidth(viewOne: UIView, viewTwo: UIView, constraintContainer: UIView) -> [NSLayoutConstraint] {
 
-    if let constraints = NSLayoutConstraint.constraintsWithVisualFormat("[viewOne(==viewTwo)]",
-      options: nil, metrics: nil,
-      views: ["viewOne": viewOne, "viewTwo": viewTwo]) as? [NSLayoutConstraint] {
+    let constraints = NSLayoutConstraint.constraintsWithVisualFormat("[viewOne(==viewTwo)]",
+      options: [], metrics: nil,
+      views: ["viewOne": viewOne, "viewTwo": viewTwo])
     
-      constraintContainer.addConstraints(constraints)
-    
-      return constraints
-    }
-
-    return []
+    constraintContainer.addConstraints(constraints)
+  
+    return constraints
   }
 }
