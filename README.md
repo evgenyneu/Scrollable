@@ -26,6 +26,7 @@ If you are using CocoaPods add this text to your Podfile and run `pod install`.
 
 # Usage
 
+1. Add `import Scrollable` to your code if you used Carthage or CocoaPods setup methods.
 1. Add a scroll view to your storyboard with necessary constraints.
 1. In storyboard, drag content views to the scroll view (labels, images etc.)
 1. In storyboard, add Auto Layout constraints for the content views: top, bottom, leading and trailing.
