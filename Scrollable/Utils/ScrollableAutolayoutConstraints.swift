@@ -4,7 +4,7 @@
 
 import UIKit
 
-class TegAutolayoutConstraints {
+class ScrollableAutolayoutConstraints {
   class func fillParent(view: UIView, parentView: UIView, margin: CGFloat = 0, vertically: Bool = false) {
     var marginFormat = ""
     

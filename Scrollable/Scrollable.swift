@@ -18,11 +18,16 @@ public class Scrollable {
   
   class func layoutContentViewInScrollView(contentView: UIView, scrollView: UIView) {
     // Make content view fill scroll view
-    TegAutolayoutConstraints.fillParent(contentView, parentView: scrollView, margin: 0, vertically: false)
-    TegAutolayoutConstraints.fillParent(contentView, parentView: scrollView, margin: 0, vertically: true)
+    
+    ScrollableAutolayoutConstraints.fillParent(contentView, parentView: scrollView, margin: 0,
+      vertically: false)
+    
+    ScrollableAutolayoutConstraints.fillParent(contentView, parentView: scrollView, margin: 0,
+      vertically: true)
     
     // Content view width is equal to scroll view width
-    TegAutolayoutConstraints.equalWidth(contentView, viewTwo: scrollView, constraintContainer: scrollView)
+    ScrollableAutolayoutConstraints.equalWidth(contentView, viewTwo: scrollView,
+      constraintContainer: scrollView)
   }
   
   class func embedSubviews(fromView: UIView, inNewSuperview newSuperview: UIView) {
