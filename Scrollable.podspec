@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name        = "Scrollable"
-  s.version     = "1.0.4"
+  s.version     = "1.0.5"
   s.license     = { :type => "MIT" }
   s.homepage    = "https://github.com/exchangegroup/Scrollable"
   s.summary     = "An iOS control that makes content scroll vertically. "
