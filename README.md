@@ -38,6 +38,7 @@ If you are using CocoaPods add this text to your Podfile and run `pod install`.
 1. Add `import Scrollable` to your code if you used Carthage or CocoaPods setup methods.
 1. Add a scroll view to your storyboard with necessary constraints.
 1. In storyboard, drag content views **to the scroll view** (your labels, images etc.).
+1. If you already have all your controls in the storyboard but there is no scroll view you can select the controls and click *Editor > Embed In > Scroll View( menu. This will automatically create a scroll view and put all the selected controls in it.
 1. Add Auto Layout constraints for all the content views. The trick is to make sure **all four sides of the scroll view** have layout constraints to the bordering content views. This will make the scroll view content size expand to accommodate all the child content views.
 
 
