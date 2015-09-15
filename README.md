@@ -60,12 +60,14 @@ Then it goes through all scroll view constraints and moves them into the **conte
 
 ## Troubleshooting
 
-When creating Auto Layout constraint for content views please use numeric values for the `Constant` field. When I left it empty (`Standard`) it threw an exception:
+* When creating Auto Layout constraint for content views please use numeric values for the `Constant` field. When I left it empty (`Standard`) it threw an exception:
 
 ```
 Assertion failure in -[NSLayoutConstraint constant], /SourceCache/Foundation/Foundation-1047.25/Layout.subproj/NSLayoutConstraint.m:601
 2014-11-28 11:53:27.816 scrolled-content[2821:60b] *** Terminating app due to uncaught exception 'NSInternalInconsistencyException', reason: '(null)'
 ```
+
+* Clear the **Adjust Scroll View Insets** checkbox in the *Attribute Inspector* of your view controller to remove the margin at the top of the scroll view.
 
 ## Attribution
 
