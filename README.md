@@ -10,7 +10,7 @@
 
 This an an iOS library that helps scrolling screen content vertically, similar how the content is scrolled in the web browser. The code is written in Swift 2.0.
 
-<img src='https://raw.githubusercontent.com/exchangegroup/scrollable-content-ios/master/graphics/scrolling-content-vertically-autolayout-ios.png' width='320' alt='Scrolling content vertically with autolayout in iOS'>
+<img src='https://raw.githubusercontent.com/marketplacer/scrollable-content-ios/master/graphics/scrolling-content-vertically-autolayout-ios.png' width='320' alt='Scrolling content vertically with autolayout in iOS'>
 
 
 ## Setup
@@ -19,11 +19,11 @@ There are three ways you can add Scrollable to your Xcode project.
 
 **Add source (iOS 7+)**
 
-Simply add [ScrollableDistrib.swift](https://github.com/exchangegroup/Scrollable/blob/master/Distrib/ScrollableDistrib.swift) file into your Xcode project.
+Simply add [ScrollableDistrib.swift](https://github.com/marketplacer/Scrollable/blob/master/Distrib/ScrollableDistrib.swift) file into your Xcode project.
 
 **Setup with Carthage (iOS 8+)**
 
-Alternatively, add `github "exchangegroup/Scrollable" ~> 1.0` to your Cartfile and run `carthage update`.
+Alternatively, add `github "marketplacer/Scrollable" ~> 1.0` to your Cartfile and run `carthage update`.
 
 **Setup with CocoaPods (iOS 8+)**
 
@@ -42,7 +42,7 @@ If you are using CocoaPods add this text to your Podfile and run `pod install`.
 1. Add Auto Layout constraints for all the content views. The trick is to make sure **all four sides of the scroll view** have layout constraints to the bordering content views. This will make the scroll view content size expand to accommodate all the child content views.
 
 
-<img src='https://raw.githubusercontent.com/exchangegroup/Scrollable/master/graphics/content_views_with_constraints.png' width='566' alt='Content views layout'>
+<img src='https://raw.githubusercontent.com/marketplacer/Scrollable/master/graphics/content_views_with_constraints.png' width='566' alt='Content views layout'>
 
 #### Layout the scroll view content
 
