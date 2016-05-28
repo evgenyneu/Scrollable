@@ -30,6 +30,7 @@ Alternatively, add `github "marketplacer/Scrollable" ~> 1.0` to your Cartfile an
 If you are using CocoaPods add this text to your Podfile and run `pod install`.
 
     use_frameworks!
+    target 'Your target name'
     pod 'Scrollable', '~> 1.0'
 
 ## Usage
