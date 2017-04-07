@@ -1,11 +1,9 @@
 # Scrolling content vertically in iOS with Auto Layout
 
-[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)][carthage]
-[![CocoaPods Version](https://img.shields.io/cocoapods/v/Scrollable.svg?style=flat)][cocoadocs]
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+[![CocoaPods Version](https://img.shields.io/cocoapods/v/Scrollable.svg?style=flat)](http://cocoadocs.org/docsets/Scrollable)
 [![License](https://img.shields.io/cocoapods/l/Scrollable.svg?style=flat)](LICENSE)
-[![Platform](https://img.shields.io/cocoapods/p/Scrollable.svg?style=flat)][cocoadocs]
-[cocoadocs]: http://cocoadocs.org/docsets/Scrollable
-[carthage]: https://github.com/Carthage/Carthage
+[![Platform](https://img.shields.io/cocoapods/p/Scrollable.svg?style=flat)](http://cocoadocs.org/docsets/Scrollable)
 
 
 This an an iOS library that helps scrolling screen content vertically, similar how the content is scrolled in the web browser. The code is written in Swift 2.0.
@@ -23,7 +21,7 @@ Simply add [ScrollableDistrib.swift](https://github.com/marketplacer/Scrollable/
 
 **Setup with Carthage (iOS 8+)**
 
-Alternatively, add `github "marketplacer/Scrollable" ~> 1.0` to your Cartfile and run `carthage update`.
+Alternatively, add `github "marketplacer/Scrollable" ~> 2.0` to your Cartfile and run `carthage update`.
 
 **Setup with CocoaPods (iOS 8+)**
 
@@ -31,7 +29,7 @@ If you are using CocoaPods add this text to your Podfile and run `pod install`.
 
     use_frameworks!
     target 'Your target name'
-    pod 'Scrollable', '~> 1.0'
+    pod 'Scrollable', '~> 2.0'
 
 ## Usage
 

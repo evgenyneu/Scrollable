@@ -5,7 +5,7 @@
 import UIKit
 
 class ScrollableAutolayoutConstraints {
-  class func fillParent(view: UIView, parentView: UIView, margin: CGFloat = 0, vertically: Bool = false) {
+  class func fillParent(_ view: UIView, parentView: UIView, margin: CGFloat = 0, vertically: Bool = false) {
     var marginFormat = ""
     
     if margin != 0 {
@@ -18,16 +18,17 @@ class ScrollableAutolayoutConstraints {
       format = "V:" + format
     }
     
-    let constraints = NSLayoutConstraint.constraintsWithVisualFormat(format,
+    let constraints = NSLayoutConstraint.constraints(withVisualFormat: format,
       options: [], metrics: nil,
       views: ["view": view])
     
     parentView.addConstraints(constraints)
   }
   
-  class func equalWidth(viewOne: UIView, viewTwo: UIView, constraintContainer: UIView) -> [NSLayoutConstraint] {
+  @discardableResult
+  class func equalWidth(_ viewOne: UIView, viewTwo: UIView, constraintContainer: UIView) -> [NSLayoutConstraint] {
 
-    let constraints = NSLayoutConstraint.constraintsWithVisualFormat("[viewOne(==viewTwo)]",
+    let constraints = NSLayoutConstraint.constraints(withVisualFormat: "[viewOne(==viewTwo)]",
       options: [], metrics: nil,
       views: ["viewOne": viewOne, "viewTwo": viewTwo])
     

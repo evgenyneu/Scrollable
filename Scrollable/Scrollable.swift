@@ -5,8 +5,9 @@ import UIKit
 Makes the content in the scroll view scrollable.
 
 */
-public class Scrollable {
-  public class func createContentView(scrollView: UIScrollView) -> UIView {
+open class Scrollable {
+  @discardableResult
+  open class func createContentView(_ scrollView: UIScrollView) -> UIView {
     let contentView = UIView()
     scrollView.addSubview(contentView)
     Scrollable.embedSubviews(scrollView, inNewSuperview: contentView)
@@ -16,7 +17,7 @@ public class Scrollable {
     return contentView
   }
   
-  class func layoutContentViewInScrollView(contentView: UIView, scrollView: UIView) {
+  class func layoutContentViewInScrollView(_ contentView: UIView, scrollView: UIView) {
     // Make content view fill scroll view
     
     ScrollableAutolayoutConstraints.fillParent(contentView, parentView: scrollView, margin: 0,
@@ -30,7 +31,7 @@ public class Scrollable {
       constraintContainer: scrollView)
   }
   
-  class func embedSubviews(fromView: UIView, inNewSuperview newSuperview: UIView) {
+  class func embedSubviews(_ fromView: UIView, inNewSuperview newSuperview: UIView) {
     newSuperview.translatesAutoresizingMaskIntoConstraints = false
     
     // Move all subviews to newSuperview
@@ -43,14 +44,14 @@ public class Scrollable {
     moveConstraints(fromView, toView: newSuperview)
   }
   
-  class func moveConstraints(fromView: UIView, toView: UIView) {
+  class func moveConstraints(_ fromView: UIView, toView: UIView) {
     let constraints = fromView.constraints
     for constraint in constraints {
       moveConstraint(constraint, fromView: fromView, toView: toView)
     }
   }
   
-  private class func moveConstraint(constraint: NSLayoutConstraint,
+  fileprivate class func moveConstraint(_ constraint: NSLayoutConstraint,
     fromView: UIView, toView: UIView) {
       
     if let firstItem = constraint.firstItem as? NSObject {
